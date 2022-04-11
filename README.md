@@ -19,3 +19,6 @@ A set of simple tools for splitting, merging, OP deletion, size compression, and
 1. https://github.com/onnx/onnx/blob/main/docs/PythonAPIOverview.md
 2. https://docs.nvidia.com/deeplearning/tensorrt/onnx-graphsurgeon/docs/index.html
 3. https://github.com/NVIDIA/TensorRT/tree/main/tools/onnx-graphsurgeon
+
+## 3. References
+1. https://github.com/PINTO0309/PINTO_model_zoo
