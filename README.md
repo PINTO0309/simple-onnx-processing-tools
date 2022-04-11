@@ -1,7 +1,7 @@
 # simple-onnx-processing-tools
 A set of simple tools for splitting, merging, OP deletion, size compression, and OP generation for ONNX models.
 
-## Tools
+## 1. Tools
 
 |No.|Tool Name|Tags|Summary|
 |:-:|:-|:-:|:-|
@@ -10,3 +10,8 @@ A set of simple tools for splitting, merging, OP deletion, size compression, and
 |3|**[snd4onnx](https://github.com/PINTO0309/snd4onnx)**|[![PyPI](https://img.shields.io/pypi/v/snd4onnx?color=2BAF2B)](https://pypi.org/project/snd4onnx/)[![snd](https://img.shields.io/github/stars/PINTO0309/snd4onnx.svg?style=social)](https://github.com/PINTO0309/snd4onnx)|Simple node deletion tool for onnx. **S**imple **N**ode **D**eletion for **ONNX**.|
 |4|**[scs4onnx](https://github.com/PINTO0309/scs4onnx)**|[![PyPI](https://img.shields.io/pypi/v/scs4onnx?color=2BAF2B)](https://pypi.org/project/scs4onnx/)[![scs](https://img.shields.io/github/stars/PINTO0309/scs4onnx.svg?style=social)](https://github.com/PINTO0309/scs4onnx)|A very simple tool that compresses the overall size of the ONNX model by aggregating duplicate constant values as much as possible. **S**imple **C**onstant value **S**hrink for **ONNX**.|
 |5|**[sog4onnx](https://github.com/PINTO0309/sog4onnx)**|[WIP]|Simple ONNX operation generator. **S**imple **O**peration **G**enerator for **ONNX**.|
+
+## 2. Acknowledgments
+1. https://github.com/onnx/onnx/blob/main/docs/PythonAPIOverview.md
+2. https://docs.nvidia.com/deeplearning/tensorrt/onnx-graphsurgeon/docs/index.html
+3. https://github.com/NVIDIA/TensorRT/tree/main/tools/onnx-graphsurgeon
