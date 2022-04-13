@@ -14,7 +14,7 @@ A set of simple tools for splitting, merging, OP deletion, size compression, and
 |3|**[snd4onnx](https://github.com/PINTO0309/snd4onnx)**|[![PyPI](https://img.shields.io/pypi/v/snd4onnx?color=2BAF2B)](https://pypi.org/project/snd4onnx/)[![snd](https://img.shields.io/github/stars/PINTO0309/snd4onnx.svg?style=social)](https://github.com/PINTO0309/snd4onnx)|Simple node deletion tool for onnx. **S**imple **N**ode **D**eletion for **ONNX**.|
 |4|**[scs4onnx](https://github.com/PINTO0309/scs4onnx)**|[![PyPI](https://img.shields.io/pypi/v/scs4onnx?color=2BAF2B)](https://pypi.org/project/scs4onnx/)[![scs](https://img.shields.io/github/stars/PINTO0309/scs4onnx.svg?style=social)](https://github.com/PINTO0309/scs4onnx)|A very simple tool that compresses the overall size of the ONNX model by aggregating duplicate constant values as much as possible. **S**imple **C**onstant value **S**hrink for **ONNX**.|
 |5|**[sog4onnx](https://github.com/PINTO0309/sog4onnx)**|[![PyPI](https://img.shields.io/pypi/v/sog4onnx?color=2BAF2B)](https://pypi.org/project/sog4onnx/)[![sog](https://img.shields.io/github/stars/PINTO0309/sog4onnx.svg?style=social)](https://github.com/PINTO0309/sog4onnx)|Simple ONNX operation generator. **S**imple **O**peration **G**enerator for **ONNX**.|
-|6|sam4onnx|[WIP]|A very simple tool to rewrite parameters such as attributes and constants for OPs in ONNX models. **S**imple **A**ttribute and Constant **M**odifier for **ONNX**.|
+|6|**[sam4onnx](https://github.com/PINTO0309/sam4onnx)**|[WIP]|A very simple tool to rewrite parameters such as attributes and constants for OPs in ONNX models. **S**imple **A**ttribute and Constant **M**odifier for **ONNX**.|
 
 ## 2. Acknowledgments
 1. https://github.com/onnx/onnx/blob/main/docs/PythonAPIOverview.md
