@@ -14,3 +14,5 @@ RUN pip install -U onnx \
     && pip install -U onnx-simplifier \
     && python3 -m pip install -U onnx_graphsurgeon --index-url https://pypi.ngc.nvidia.com \
     && pip install -U simple_onnx_processing_tools
+
+WORKDIR /workdir
