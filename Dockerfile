@@ -22,4 +22,6 @@ RUN echo "root:root" | chpasswd \
     && echo "%${USERNAME}    ALL=(ALL)   NOPASSWD:    ALL" >> /etc/sudoers.d/${USERNAME} \
     && chmod 0440 /etc/sudoers.d/${USERNAME}
 USER ${USERNAME}
-RUN sudo chown ${USERNAME}:${USERNAME} /workdir
+ARG WKDIR=/workdir
+WORKDIR ${WKDIR}
+RUN sudo chown ${USERNAME}:${USERNAME} ${WKDIR}
