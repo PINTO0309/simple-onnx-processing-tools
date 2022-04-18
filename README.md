@@ -7,6 +7,9 @@ A set of simple tools for splitting, merging, OP deletion, size compression, rew
 
 ## 1. Tools
 ```bash
+$ pip install simple-onnx-processing-tools 
+```
+```bash
 $ docker run --rm -it \
 -v `pwd`:/workdir \
 -w /workdir \
