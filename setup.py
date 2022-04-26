@@ -38,5 +38,6 @@ setup(
         'sam4onnx',
         'soc4onnx',
         'scc4onnx',
+        'sna4onnx',
     ],
 )
