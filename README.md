@@ -17,7 +17,7 @@ $ pip install simple-onnx-processing-tools \
 $ docker run --rm -it \
 -v `pwd`:/workdir \
 -w /workdir \
-pinto0309/simple-onnx-processing-tools:1.0.1
+pinto0309/simple-onnx-processing-tools:1.0.2
 ```
 
 |No.|Tool Name|Tags|Summary|
@@ -30,7 +30,7 @@ pinto0309/simple-onnx-processing-tools:1.0.1
 |6|**[sam4onnx](https://github.com/PINTO0309/sam4onnx)**|[![PyPI](https://img.shields.io/pypi/v/sam4onnx?color=2BAF2B)](https://pypi.org/project/sam4onnx/)[![sam](https://img.shields.io/github/stars/PINTO0309/sam4onnx.svg?style=social)](https://github.com/PINTO0309/sam4onnx)|A very simple tool to rewrite parameters such as attributes and constants for OPs in ONNX models. **S**imple **A**ttribute and Constant **M**odifier for **ONNX**.|
 |7|**[soc4onnx](https://github.com/PINTO0309/soc4onnx)**|[![PyPI](https://img.shields.io/pypi/v/soc4onnx?color=2BAF2B)](https://pypi.org/project/soc4onnx/)[![sam](https://img.shields.io/github/stars/PINTO0309/soc4onnx.svg?style=social)](https://github.com/PINTO0309/soc4onnx)|A very simple tool that forces a change in the opset of an ONNX graph. **S**imple **O**pset **C**hanger for **ONNX**.|
 |8|**[scc4onnx](https://github.com/PINTO0309/scc4onnx)**|[![PyPI](https://img.shields.io/pypi/v/scc4onnx?color=2BAF2B)](https://pypi.org/project/scc4onnx/)[![sam](https://img.shields.io/github/stars/PINTO0309/scc4onnx.svg?style=social)](https://github.com/PINTO0309/scc4onnx)|Very simple NCHW and NHWC conversion tool for ONNX. Change to the specified input order for each and every input OP. Also, change the channel order of RGB and BGR. **S**imple **C**hannel **C**onverter for **ONNX**.|
-|9|**[sna4onnx](https://github.com/PINTO0309/sna4onnx)**|[WIP][![PyPI](https://img.shields.io/pypi/v/sna4onnx?color=2BAF2B)](https://pypi.org/project/sna4onnx/)[![sog](https://img.shields.io/github/stars/PINTO0309/sna4onnx.svg?style=social)](https://github.com/PINTO0309/sna4onnx)|Simple node addition tool for onnx. **S**imple **N**ode **A**ddition for **ONNX**.|
+|9|**[sna4onnx](https://github.com/PINTO0309/sna4onnx)**|[![PyPI](https://img.shields.io/pypi/v/sna4onnx?color=2BAF2B)](https://pypi.org/project/sna4onnx/)[![sog](https://img.shields.io/github/stars/PINTO0309/sna4onnx.svg?style=social)](https://github.com/PINTO0309/sna4onnx)|Simple node addition tool for onnx. **S**imple **N**ode **A**ddition for **ONNX**.|
 
 ## 2. Acknowledgments
 1. https://github.com/onnx/onnx/blob/main/docs/PythonAPIOverview.md
