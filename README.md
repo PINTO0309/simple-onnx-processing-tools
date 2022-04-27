@@ -31,11 +31,13 @@ pinto0309/simple-onnx-processing-tools:1.0.2
 |7|**[soc4onnx](https://github.com/PINTO0309/soc4onnx)**|[![PyPI](https://img.shields.io/pypi/v/soc4onnx?color=2BAF2B)](https://pypi.org/project/soc4onnx/)[![sam](https://img.shields.io/github/stars/PINTO0309/soc4onnx.svg?style=social)](https://github.com/PINTO0309/soc4onnx)|A very simple tool that forces a change in the opset of an ONNX graph. **S**imple **O**pset **C**hanger for **ONNX**.|
 |8|**[scc4onnx](https://github.com/PINTO0309/scc4onnx)**|[![PyPI](https://img.shields.io/pypi/v/scc4onnx?color=2BAF2B)](https://pypi.org/project/scc4onnx/)[![sam](https://img.shields.io/github/stars/PINTO0309/scc4onnx.svg?style=social)](https://github.com/PINTO0309/scc4onnx)|Very simple NCHW and NHWC conversion tool for ONNX. Change to the specified input order for each and every input OP. Also, change the channel order of RGB and BGR. **S**imple **C**hannel **C**onverter for **ONNX**.|
 |9|**[sna4onnx](https://github.com/PINTO0309/sna4onnx)**|[![PyPI](https://img.shields.io/pypi/v/sna4onnx?color=2BAF2B)](https://pypi.org/project/sna4onnx/)[![sog](https://img.shields.io/github/stars/PINTO0309/sna4onnx.svg?style=social)](https://github.com/PINTO0309/sna4onnx)|Simple node addition tool for onnx. **S**imple **N**ode **A**ddition for **ONNX**.|
+|10|**[components_of_onnx](https://github.com/PINTO0309/components_of_onnx)**|[WIP][![PyPI](https://img.shields.io/pypi/v/components_of_onnx?color=2BAF2B)](https://pypi.org/project/components_of_onnx/)[![sog](https://img.shields.io/github/stars/PINTO0309/components_of_onnx.svg?style=social)](https://github.com/PINTO0309/components_of_onnx)|ONNX parts yard.|
 
 ## 2. Acknowledgments
 1. https://github.com/onnx/onnx/blob/main/docs/PythonAPIOverview.md
 2. https://docs.nvidia.com/deeplearning/tensorrt/onnx-graphsurgeon/docs/index.html
 3. https://github.com/NVIDIA/TensorRT/tree/main/tools/onnx-graphsurgeon
+4. https://github.com/onnx/onnx/blob/main/docs/Operators.md
 
 ## 3. References
 1. https://github.com/PINTO0309/PINTO_model_zoo
