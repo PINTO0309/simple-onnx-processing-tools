@@ -39,6 +39,7 @@ setup(
         'soc4onnx',
         'scc4onnx',
         'sna4onnx',
+        'sbi4onnx',
         'onnx2json',
         'json2onnx',
     ],
