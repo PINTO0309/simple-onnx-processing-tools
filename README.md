@@ -1,5 +1,5 @@
 # simple-onnx-processing-tools
-A set of simple tools for splitting, merging, OP deletion, size compression, rewriting attributes and constants, OP generation, change opset, change to the specified input order, and RGB to BGR conversion for ONNX models.
+A set of simple tools for splitting, merging, OP deletion, size compression, rewriting attributes and constants, OP generation, change opset, change to the specified input order, addition of OP, RGB to BGR conversion, and JSON convertion for ONNX models.
 
 [![Downloads](https://static.pepy.tech/personalized-badge/simple-onnx-processing-tools?period=total&units=none&left_color=grey&right_color=brightgreen&left_text=Downloads)](https://pepy.tech/project/simple-onnx-processing-tools) ![GitHub](https://img.shields.io/github/license/PINTO0309/simple-onnx-processing-tools?color=2BAF2B) [![PyPI](https://img.shields.io/pypi/v/simple-onnx-processing-tools?color=2BAF2B)](https://pypi.org/project/simple-onnx-processing-tools/)
 
