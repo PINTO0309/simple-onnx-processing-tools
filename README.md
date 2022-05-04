@@ -36,7 +36,7 @@ pinto0309/simple-onnx-processing-tools:1.0.4
 |12|**[json2onnx](https://github.com/PINTO0309/json2onnx)**|[![PyPI](https://img.shields.io/pypi/v/json2onnx?color=2BAF2B)](https://pypi.org/project/json2onnx/)[![sog](https://img.shields.io/github/stars/PINTO0309/json2onnx.svg?style=social)](https://github.com/PINTO0309/json2onnx)|Converts a JSON file to an ONNX file.|
 |13|**[components_of_onnx](https://github.com/PINTO0309/components_of_onnx)**|[WIP][![PyPI](https://img.shields.io/pypi/v/components_of_onnx?color=2BAF2B)](https://pypi.org/project/components_of_onnx/)[![sog](https://img.shields.io/github/stars/PINTO0309/components_of_onnx.svg?style=social)](https://github.com/PINTO0309/components_of_onnx)|ONNX parts yard. The various operations described in [Operator Schemas](https://github.com/onnx/onnx/blob/main/docs/Operators.md) are converted in advance into OP stand-alone ONNX files.|
 
-## 2. Very useful tool
+## 2. Very useful tools
 
 |No.|Tool Name|Author|Tags|Summary|
 |:-:|:-|:-|:-:|:-|
