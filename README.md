@@ -9,7 +9,7 @@ A set of simple tools for splitting, merging, OP deletion, size compression, rew
 
 ## 1. Tools
 ```bash
-$ pip install simple-onnx-processing-tools \
+$ pip install -U simple-onnx-processing-tools \
 && pip install -U onnx \
 && python3 -m pip install -U onnx_graphsurgeon --index-url https://pypi.ngc.nvidia.com
 ```
