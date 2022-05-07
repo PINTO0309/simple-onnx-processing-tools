@@ -8,11 +8,13 @@ A set of simple tools for splitting, merging, OP deletion, size compression, rew
 </p>
 
 ## 1. Tools
+### HostPC
 ```bash
 $ pip install -U simple-onnx-processing-tools \
 && pip install -U onnx \
 && python3 -m pip install -U onnx_graphsurgeon --index-url https://pypi.ngc.nvidia.com
 ```
+### Docker
 ```bash
 $ docker run --rm -it \
 -v `pwd`:/workdir \

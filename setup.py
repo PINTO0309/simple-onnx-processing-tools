@@ -19,7 +19,9 @@ setup(
     description=\
         "A set of simple tools for splitting, merging, OP deletion, "+
         "size compression, rewriting attributes and constants, "+
-        "OP generation, and change opset for ONNX models.",
+        "OP generation, change opset, change to the specified input order, "+
+        "addition of OP, RGB to BGR conversion, change batch size, "+
+        "batch rename of OP, and JSON convertion for ONNX models.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Katsuya Hyodo",
