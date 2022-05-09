@@ -35,7 +35,7 @@ setup(
         'snc4onnx >= 1.0.6',
         'sne4onnx >= 1.0.7',
         'snd4onnx >= 1.1.2',
-        'scs4onnx >= 1.0.15',
+        'scs4onnx >= 1.0.16',
         'sog4onnx >= 1.0.9',
         'sam4onnx >= 1.0.4',
         'soc4onnx >= 1.0.0',
