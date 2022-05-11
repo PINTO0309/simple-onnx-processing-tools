@@ -45,6 +45,7 @@ pinto0309/simple-onnx-processing-tools:1.0.15
 |No.|Tool Name|Author|Tags|Summary|
 |:-:|:-|:-|:-:|:-|
 |1|**[OnnxGraphQt](https://github.com/fateshelled/OnnxGraphQt)**|**[fateshelled](https://github.com/fateshelled)**|[WIP]|ONNX model visualizer. Model structure can be edited on the visualization tool.![image](https://user-images.githubusercontent.com/33194443/166604378-ba33f9b3-8dc1-46b3-bece-15c2d08b678a.png)![image](https://user-images.githubusercontent.com/33194443/166604396-1fe3a015-9b3c-4a49-8bc4-7438aedbbab6.png)|
+|2|**[onnx-simplifier](https://github.com/daquexian/onnx-simplifier)**|daquexian|[![PyPI](https://img.shields.io/pypi/v/onnx-simplifier?color=2BAF2B)](https://pypi.org/project/onnx-simplifier/)[![onnxsim](https://img.shields.io/github/stars/daquexian/onnx-simplifier.svg?style=social)](https://github.com/daquexian/onnx-simplifier)|ONNX Simplifier is presented to simplify the ONNX model. It infers the whole computation graph and then replaces the redundant operators with their constant outputs.|
 
 ### 2-1. OnnxGraphQt - [WIP] Startup Method Sample
 ```bash
