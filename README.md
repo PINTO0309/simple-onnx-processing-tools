@@ -12,7 +12,8 @@ A set of simple tools for splitting, merging, OP deletion, size compression, rew
 ```bash
 $ pip install -U simple-onnx-processing-tools \
 && pip install -U onnx \
-&& python3 -m pip install -U onnx_graphsurgeon --index-url https://pypi.ngc.nvidia.com
+&& python3 -m pip install -U onnx_graphsurgeon --index-url https://pypi.ngc.nvidia.com \
+&& && pip install -U onnx-simplifier
 ```
 ### Docker
 ```bash
