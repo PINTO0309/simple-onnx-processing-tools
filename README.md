@@ -20,7 +20,7 @@ $ pip install -U simple-onnx-processing-tools \
 $ docker run --rm -it \
 -v `pwd`:/workdir \
 -w /workdir \
-pinto0309/simple-onnx-processing-tools:1.0.16
+pinto0309/simple-onnx-processing-tools:1.0.17
 ```
 
 |No.|Tool Name|Tags|Summary|
@@ -36,9 +36,10 @@ pinto0309/simple-onnx-processing-tools:1.0.16
 |9|**[sna4onnx](https://github.com/PINTO0309/sna4onnx)**|[![PyPI](https://img.shields.io/pypi/v/sna4onnx?color=2BAF2B)](https://pypi.org/project/sna4onnx/)[![sog](https://img.shields.io/github/stars/PINTO0309/sna4onnx.svg?style=social)](https://github.com/PINTO0309/sna4onnx)|Simple node addition tool for onnx. **S**imple **N**ode **A**ddition for **ONNX**.|
 |10|**[sbi4onnx](https://github.com/PINTO0309/sbi4onnx)**|[![PyPI](https://img.shields.io/pypi/v/sbi4onnx?color=2BAF2B)](https://pypi.org/project/sbi4onnx/)[![sbi4onnx](https://img.shields.io/github/stars/PINTO0309/sbi4onnx.svg?style=social)](https://github.com/PINTO0309/sbi4onnx)|A very simple script that only initializes the batch size of ONNX. **S**imple **B**atchsize **I**nitialization for **ONNX**.|
 |11|**[sor4onnx](https://github.com/PINTO0309/sor4onnx)**|[![PyPI](https://img.shields.io/pypi/v/sor4onnx?color=2BAF2B)](https://pypi.org/project/sor4onnx/)[![sor4onnx](https://img.shields.io/github/stars/PINTO0309/sor4onnx.svg?style=social)](https://github.com/PINTO0309/sor4onnx)|**S**imple **O**P **R**enamer for **ONNX**.|
-|12|**[onnx2json](https://github.com/PINTO0309/onnx2json)**|[![PyPI](https://img.shields.io/pypi/v/onnx2json?color=2BAF2B)](https://pypi.org/project/onnx2json/)[![onnx2json](https://img.shields.io/github/stars/PINTO0309/onnx2json.svg?style=social)](https://github.com/PINTO0309/onnx2json)|Exports the ONNX file to a JSON file.|
-|13|**[json2onnx](https://github.com/PINTO0309/json2onnx)**|[![PyPI](https://img.shields.io/pypi/v/json2onnx?color=2BAF2B)](https://pypi.org/project/json2onnx/)[![sog](https://img.shields.io/github/stars/PINTO0309/json2onnx.svg?style=social)](https://github.com/PINTO0309/json2onnx)|Converts a JSON file to an ONNX file.|
-|14|**[components_of_onnx](https://github.com/PINTO0309/components_of_onnx)**|[WIP][![PyPI](https://img.shields.io/pypi/v/components_of_onnx?color=2BAF2B)](https://pypi.org/project/components_of_onnx/)[![sog](https://img.shields.io/github/stars/PINTO0309/components_of_onnx.svg?style=social)](https://github.com/PINTO0309/components_of_onnx)|ONNX parts yard. The various operations described in [Operator Schemas](https://github.com/onnx/onnx/blob/main/docs/Operators.md) are converted in advance into OP stand-alone ONNX files.|
+|12|**[sit4onnx](https://github.com/PINTO0309/sit4onnx)**|[![PyPI](https://img.shields.io/pypi/v/sit4onnx?color=2BAF2B)](https://pypi.org/project/sit4onnx/)[![sit4onnx](https://img.shields.io/github/stars/PINTO0309/sit4onnx.svg?style=social)](https://github.com/PINTO0309/sit4onnx)|Tools for simple inference testing using TensorRT, CUDA and OpenVINO CPU/GPU and CPU providers. **S**imple **I**nference **T**est for **ONNX**.|
+|13|**[onnx2json](https://github.com/PINTO0309/onnx2json)**|[![PyPI](https://img.shields.io/pypi/v/onnx2json?color=2BAF2B)](https://pypi.org/project/onnx2json/)[![onnx2json](https://img.shields.io/github/stars/PINTO0309/onnx2json.svg?style=social)](https://github.com/PINTO0309/onnx2json)|Exports the ONNX file to a JSON file.|
+|14|**[json2onnx](https://github.com/PINTO0309/json2onnx)**|[![PyPI](https://img.shields.io/pypi/v/json2onnx?color=2BAF2B)](https://pypi.org/project/json2onnx/)[![sog](https://img.shields.io/github/stars/PINTO0309/json2onnx.svg?style=social)](https://github.com/PINTO0309/json2onnx)|Converts a JSON file to an ONNX file.|
+|15|**[components_of_onnx](https://github.com/PINTO0309/components_of_onnx)**|[WIP][![PyPI](https://img.shields.io/pypi/v/components_of_onnx?color=2BAF2B)](https://pypi.org/project/components_of_onnx/)[![sog](https://img.shields.io/github/stars/PINTO0309/components_of_onnx.svg?style=social)](https://github.com/PINTO0309/components_of_onnx)|ONNX parts yard. The various operations described in [Operator Schemas](https://github.com/onnx/onnx/blob/main/docs/Operators.md) are converted in advance into OP stand-alone ONNX files.|
 
 ## 2. Very useful tools
 
