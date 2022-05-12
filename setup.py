@@ -45,6 +45,5 @@ setup(
         'sor4onnx >= 1.0.0',
         'onnx2json >= 2.0.1',
         'json2onnx >= 2.0.0',
-        'onnx-simplifier',
     ],
 )
