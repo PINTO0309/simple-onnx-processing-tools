@@ -10,9 +10,16 @@ A set of simple tools for splitting, merging, OP deletion, size compression, rew
 ## 1. Tools
 ### HostPC
 ```bash
+# (1) Minimum configuration installation with no dependent packages installed
 $ pip install -U simple-onnx-processing-tools \
 && pip install -U onnx \
-&& pip install --no-deps -U onnx-simplifier \
+&& python3 -m pip install -U onnx_graphsurgeon --index-url https://pypi.ngc.nvidia.com
+
+or
+
+# (2) When installing all dependent packages such as onnx-simplifier, onnxruntime, numpy, etc...
+$ pip install -U simple-onnx-processing-tools[full] \
+&& pip install -U onnx \
 && python3 -m pip install -U onnx_graphsurgeon --index-url https://pypi.ngc.nvidia.com
 ```
 ### Docker
@@ -20,7 +27,7 @@ $ pip install -U simple-onnx-processing-tools \
 $ docker run --rm -it \
 -v `pwd`:/workdir \
 -w /workdir \
-pinto0309/simple-onnx-processing-tools:1.0.17
+pinto0309/simple-onnx-processing-tools:1.0.18
 ```
 
 |No.|Tool Name|Tags|Summary|
