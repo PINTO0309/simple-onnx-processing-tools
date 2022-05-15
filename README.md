@@ -27,7 +27,7 @@ $ pip install -U simple-onnx-processing-tools[full] \
 $ docker run --rm -it \
 -v `pwd`:/workdir \
 -w /workdir \
-pinto0309/simple-onnx-processing-tools:1.0.21
+pinto0309/simple-onnx-processing-tools:1.0.22
 ```
 
 |No.|Tool Name|Tags|Summary|
@@ -46,7 +46,8 @@ pinto0309/simple-onnx-processing-tools:1.0.21
 |12|**[sit4onnx](https://github.com/PINTO0309/sit4onnx)**|[![PyPI](https://img.shields.io/pypi/v/sit4onnx?color=2BAF2B)](https://pypi.org/project/sit4onnx/)[![sit4onnx](https://img.shields.io/github/stars/PINTO0309/sit4onnx.svg?style=social)](https://github.com/PINTO0309/sit4onnx)|Tools for simple inference testing using TensorRT, CUDA and OpenVINO CPU/GPU and CPU providers. **S**imple **I**nference **T**est for **ONNX**.|
 |13|**[onnx2json](https://github.com/PINTO0309/onnx2json)**|[![PyPI](https://img.shields.io/pypi/v/onnx2json?color=2BAF2B)](https://pypi.org/project/onnx2json/)[![onnx2json](https://img.shields.io/github/stars/PINTO0309/onnx2json.svg?style=social)](https://github.com/PINTO0309/onnx2json)|Exports the ONNX file to a JSON file.|
 |14|**[json2onnx](https://github.com/PINTO0309/json2onnx)**|[![PyPI](https://img.shields.io/pypi/v/json2onnx?color=2BAF2B)](https://pypi.org/project/json2onnx/)[![sog](https://img.shields.io/github/stars/PINTO0309/json2onnx.svg?style=social)](https://github.com/PINTO0309/json2onnx)|Converts a JSON file to an ONNX file.|
-|15|**[components_of_onnx](https://github.com/PINTO0309/components_of_onnx)**|[WIP][![PyPI](https://img.shields.io/pypi/v/components_of_onnx?color=2BAF2B)](https://pypi.org/project/components_of_onnx/)[![sog](https://img.shields.io/github/stars/PINTO0309/components_of_onnx.svg?style=social)](https://github.com/PINTO0309/components_of_onnx)|ONNX parts yard. The various operations described in [Operator Schemas](https://github.com/onnx/onnx/blob/main/docs/Operators.md) are converted in advance into OP stand-alone ONNX files.|
+|15|**[sed4onnx](https://github.com/PINTO0309/sed4onnx)**|[![PyPI](https://img.shields.io/pypi/v/sed4onnx?color=2BAF2B)](https://pypi.org/project/sed4onnx/)[![sog](https://img.shields.io/github/stars/PINTO0309/sed4onnx.svg?style=social)](https://github.com/PINTO0309/sed4onnx)|Simple ONNX constant encoder/decoder.|
+|16|**[components_of_onnx](https://github.com/PINTO0309/components_of_onnx)**|[WIP][![PyPI](https://img.shields.io/pypi/v/components_of_onnx?color=2BAF2B)](https://pypi.org/project/components_of_onnx/)[![sog](https://img.shields.io/github/stars/PINTO0309/components_of_onnx.svg?style=social)](https://github.com/PINTO0309/components_of_onnx)|ONNX parts yard. The various operations described in [Operator Schemas](https://github.com/onnx/onnx/blob/main/docs/Operators.md) are converted in advance into OP stand-alone ONNX files.|
 
 ## 2. Very useful tools
 
