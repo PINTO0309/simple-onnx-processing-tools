@@ -34,7 +34,7 @@ setup(
     install_requires = [
         'snc4onnx >= 1.0.6',
         'sne4onnx >= 1.0.7',
-        'snd4onnx >= 1.1.3',
+        'snd4onnx >= 1.1.4',
         'scs4onnx >= 1.0.16',
         'sog4onnx >= 1.0.10',
         'sam4onnx >= 1.0.6',
