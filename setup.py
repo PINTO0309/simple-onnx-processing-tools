@@ -48,6 +48,7 @@ setup(
         'json2onnx >= 2.0.0',
         'sed4onnx >= 1.0.0',
         'soa4onnx >= 1.0.1',
+        'ssi4onnx >= 1.0.0',
     ],
     extras_require = {
         'full': ['onnx-simplifier'],
