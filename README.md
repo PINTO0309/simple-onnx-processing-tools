@@ -27,7 +27,7 @@ $ pip install -U simple-onnx-processing-tools[full] \
 $ docker run --rm -it \
 -v `pwd`:/workdir \
 -w /workdir \
-pinto0309/simple-onnx-processing-tools:1.0.28
+pinto0309/simple-onnx-processing-tools:1.0.29
 ```
 
 |No.|Tool Name|Tags|Summary|
