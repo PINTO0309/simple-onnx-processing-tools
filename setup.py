@@ -49,8 +49,12 @@ setup(
         'sed4onnx >= 1.0.1',
         'soa4onnx >= 1.0.2',
         'ssi4onnx >= 1.0.1',
+        'ssc4onnx >= 1.0.0',
     ],
     extras_require = {
-        'full': ['onnx-simplifier'],
+        'full': [
+            'onnx-simplifier',
+            'rich',
+        ],
     },
 )
