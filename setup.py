@@ -40,7 +40,7 @@ setup(
         'sam4onnx >= 1.0.8',
         'soc4onnx >= 1.0.1',
         'scc4onnx >= 1.0.4',
-        'sna4onnx >= 1.0.3',
+        'sna4onnx >= 1.0.4',
         'sbi4onnx >= 1.0.3',
         'sor4onnx >= 1.0.1',
         'sit4onnx >= 1.0.4',
