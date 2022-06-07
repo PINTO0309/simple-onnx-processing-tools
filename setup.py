@@ -33,7 +33,7 @@ setup(
     python_requires=">=3.6",
     install_requires = [
         'snc4onnx >= 1.0.7',
-        'sne4onnx >= 1.0.8',
+        'sne4onnx >= 1.0.9',
         'snd4onnx >= 1.1.5',
         'scs4onnx >= 1.0.17',
         'sog4onnx >= 1.0.12',
