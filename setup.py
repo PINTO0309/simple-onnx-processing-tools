@@ -50,7 +50,7 @@ setup(
         'soa4onnx >= 1.0.2',
         'ssi4onnx >= 1.0.1',
         'ssc4onnx >= 1.0.2',
-        'sio4onnx >= 1.0.0',
+        'sio4onnx >= 1.0.',
     ],
     extras_require = {
         'full': [
