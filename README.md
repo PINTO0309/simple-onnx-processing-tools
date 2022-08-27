@@ -67,7 +67,6 @@ pinto0309/simple-onnx-processing-tools:1.0.44
 ```bash
 git clone https://github.com/fateshelled/OnnxGraphQt
 cd OnnxGraphQt
-sudo chmod -R +x ./docker/*
 # build docker image
 ./docker/build.bash
 # run
