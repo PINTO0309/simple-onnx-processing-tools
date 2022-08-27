@@ -65,22 +65,13 @@ pinto0309/simple-onnx-processing-tools:1.0.44
 
 ### 2-1. OnnxGraphQt - [WIP] Startup Method Sample
 ```bash
-$ xhost +local: && \
-docker run -it --rm \
--v `pwd`:/home/user/workdir \
--v /tmp/.X11-unix/:/tmp/.X11-unix:rw \
---net=host \
--e XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR \
--e DISPLAY=$DISPLAY \
---privileged \
-ghcr.io/pinto0309/openvino2tensorflow:latest
-
-$ git clone https://github.com/fateshelled/OnnxGraphQt \
-&& cd OnnxGraphQt \
-&& sudo python3 -m pip install -r requirements.txt -U \
-&& cd ..
-
-$ python3 OnnxGraphQt/onnxgraphqt/main.py
+git clone https://github.com/fateshelled/OnnxGraphQt
+cd OnnxGraphQt
+sudo chmod -R +x ./docker/*
+# build docker image
+./docker/build.bash
+# run
+./docker/run.bash
 ```
 
 ## 3. Acknowledgments
