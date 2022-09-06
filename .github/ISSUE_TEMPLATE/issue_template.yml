@@ -1,0 +1,53 @@
+name: Issue
+description: Miscellaneous issues are closed immediately. If you have no intention of returning useful information to the community, you have no right to post an issue here. Please withdraw.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Pull request is welcome. Also, anything that does not follow the issue template will be closed immediately.
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Issue Type
+      description: What type of issue would you like to report?
+      multiple: true
+      options:
+        - Feature Request
+        - Documentation Feature Request
+    validations:
+      required: true
+  - type: textarea
+    id: what-model
+    attributes:
+      label: Model Name
+      description: Include the name of the model.
+    validations:
+      required: true
+  - type: textarea
+    id: what-onnx
+    attributes:
+      label: ONNX URL
+      description: Include the URL from which the model was taken.
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Description
+      description: Please describe the current and expected behaviour, and attach all files/info needed to reproduce the issue if applicable.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Log Output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code.
+    validations:
+      required: true
+  - type: textarea
+    id: URL-or-source-code-for-simple-inference-testing-code
+    attributes:
+      label: URL or source code for simple inference testing code
+      description: Please copy and paste URL or source code for simple inference testing code.
+    validations:
+      required: true
