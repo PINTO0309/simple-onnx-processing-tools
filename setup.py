@@ -32,7 +32,7 @@ setup(
     platforms=["linux", "unix"],
     python_requires=">=3.6",
     install_requires = [
-        'snc4onnx >= 1.0.7',
+        'snc4onnx >= 1.0.',
         'sne4onnx >= 1.0.9',
         'snd4onnx >= 1.1.5',
         'scs4onnx >= 1.0.17',
