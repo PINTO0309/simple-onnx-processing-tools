@@ -48,6 +48,7 @@ setup(
         'json2onnx >= 2.0.2',
         'sed4onnx >= 1.0.4',
         'soa4onnx >= 1.0.3',
+        'sod4onnx >= 1.0.0',
         'ssi4onnx >= 1.0.2',
         'ssc4onnx >= 1.0.4',
         'sio4onnx >= 1.0.2',
