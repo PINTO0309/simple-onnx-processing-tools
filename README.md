@@ -85,3 +85,5 @@ cd OnnxGraphQt
 
 ## 4. References
 1. https://github.com/PINTO0309/PINTO_model_zoo
+2. https://github.com/PINTO0309/PINTO_model_zoo/tree/main/115_MoveNet/PINTO_Special/barracuda_gathernd_split
+
