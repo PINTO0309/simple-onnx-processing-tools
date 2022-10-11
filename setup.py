@@ -53,6 +53,7 @@ setup(
         'ssc4onnx >= 1.0.4',
         'sio4onnx >= 1.0.2',
         'svs4onnx >= 1.0.0',
+        'onnx2tf >= 0.0.22',
     ],
     extras_require = {
         'full': [
