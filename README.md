@@ -27,7 +27,7 @@ $ pip install -U simple-onnx-processing-tools[full] \
 $ docker run --rm -it \
 -v `pwd`:/workdir \
 -w /workdir \
-ghcr.io/pinto0309/simple-onnx-processing-tools:1.0.67
+ghcr.io/pinto0309/simple-onnx-processing-tools:1.0.68
 ```
 
 |No.|Tool Name|Tags|Summary|
