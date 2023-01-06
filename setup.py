@@ -53,7 +53,7 @@ setup(
         'ssc4onnx >= 1.0.4',
         'sio4onnx >= 1.0.2',
         'svs4onnx >= 1.0.0',
-        'onnx2tf >= 1.3.10',
+        'onnx2tf >= 1.3.17',
         'sng4onnx >= 1.0.1',
         'sde4onnx >= 1.0.0',
     ],
