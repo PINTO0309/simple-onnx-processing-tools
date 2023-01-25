@@ -44,7 +44,7 @@ setup(
         'sbi4onnx >= 1.0.4',
         'sor4onnx >= 1.0.5',
         'sit4onnx >= 1.0.6',
-        'onnx2json >= 2.0.3',
+        'onnx2json >= 2.0.4',
         'json2onnx >= 2.0.2',
         'sed4onnx >= 1.0.5',
         'soa4onnx >= 1.0.3',
